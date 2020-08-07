@@ -1,0 +1,97 @@
+
+.numeroHora:nth-child(1), .numeroHora:nth-child(11) {
+    position: relative;
+    top: -5px;
+}
+
+.numeroHora:nth-child(1) {
+    grid-row: 2 / 3;
+    grid-column: 8 / 9;
+    justify-self:right;
+}
+
+.numeroHora:nth-child(2) {
+    grid-row: 3 / 4;
+    grid-column: 10 / 11;
+    justify-self: right;
+    transform: translateY(10px);
+}
+
+.numeroHora:nth-child(3) {
+    grid-row: 6 / 7;
+    grid-column: 11 / 12;
+    transform: translateY(13px);
+}
+
+.numeroHora:nth-child(4) {
+    grid-row: 9 / 10;
+    grid-column: 10 / 11;
+    justify-self:right;
+    transform: translateY(18px);
+}
+
+.numeroHora:nth-child(5) {
+    grid-row: 11 / 12;
+    grid-column: 8 / 9;
+    justify-self:right;
+    position: relative;
+    top: 10px;
+    transform: translateY(10px);
+
+}
+
+.numeroHora:nth-child(6) {
+    grid-row: 12 / 13;
+    grid-column: 6 / 7;
+    justify-self:right;
+    transform: translateX(-5px);
+
+}
+
+.numeroHora:nth-child(7) {
+    grid-row: 11 / 12;
+    grid-column: 4 / 5;
+    justify-self:center;
+    position: relative;
+    top: 27px;
+}
+
+.numeroHora:nth-child(8) {
+    grid-row: 9 / 10;
+    grid-column: 2 / 3;
+    transform: translateY(30px);
+    position: relative;
+    left: -10px;
+    
+}
+
+.numeroHora:nth-child(9) {
+    grid-row: 6 / 7;
+    grid-column: 1 / 2;
+    transform: translateY(20px);
+}
+
+.numeroHora:nth-child(10) {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    justify-self:left;
+    position: relative;
+    top: 5px;
+    left: -5px;
+
+}
+
+.numeroHora:nth-child(11) {
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+    justify-self:left;
+    position: relative;
+    left: 1px;
+   transform: translateY(-15px);
+}
+
+.numeroHora:nth-child(12) {
+    grid-row: 1 / 2;
+    grid-column: 6 / 7;
+   transform: translateX(7px);
+}
