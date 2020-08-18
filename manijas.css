@@ -25,15 +25,15 @@
 
 
 .manijaHoras::after {
-    content: "";
+       content: "";
     display: block;
     position: relative;
     width: 17px;
-    height: 190px;
+    height: 170px;
     background-color: rgba(250, 0, 0, 0.7);
     border-radius: 20px / 40px;
-    left: 43%;
-    top: -150%;
+    left: 52%;
+    top: -125%;
 }
 
 .hora {
@@ -44,7 +44,6 @@
     border: 2px solid blue;
     transform: translateX(50px);
 }
-
 .sombraNumero {
     text-shadow: yellow 0px 10px 5px;
 }
